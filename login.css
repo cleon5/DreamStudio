@@ -1,3 +1,4 @@
+
 .bodyLogin{
     background-image: url(./src/concept_art_of_a_burning_landfill_planet_key_visual_ambient_lighting_highly_detailed_digital_painting_concept_art_by_makoto_shinkai.png);
     background-repeat: no-repeat;
@@ -10,7 +11,7 @@
     flex-direction: column;
 }
 .loginCard {
-    width: 780px;
+    width: 70vw;
     display: flex;
     align-items:stretch;
     margin: 150px auto;
@@ -55,7 +56,7 @@ label{
 
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 470px) {
     .loginCard {
         width: 70%;
         flex: none;

@@ -12,6 +12,10 @@
 
 nav {
   display: flex;
+  padding: 10px;
+  height: fit-content;
+  border-radius: 10px;
+background: linear-gradient(180deg, rgba(77, 187, 238, 0.685) 0%, rgb(129, 20, 224) 100%);
 }
 
 .Navbar {
@@ -40,7 +44,7 @@ nav {
 .links a:hover {
   transition: all 0.7s ease-in-out;
   text-decoration: underline;
-  color: gray;
+  color: rgb(168, 255, 6);
 }
 .logo {
   justify-self: start;
