@@ -8,13 +8,13 @@ html {
   background-size: cover;
   scroll-snap-type: y mandatory;
 }
-.top{
+.top {
   background-color: #00000011;
   text-align: center;
 }
-.top h2{
+.top h2 {
   font-size: 4vw;
-  color:rgba(250, 235, 215, 0.747);
+  color: rgba(250, 235, 215, 0.747);
 }
 .titulo {
   font-size: 8vw;
@@ -45,7 +45,7 @@ html {
 }
 .info h2 {
   font-size: 8vh;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .info p {
   font-size: 3vh;
@@ -74,4 +74,73 @@ html {
 }
 .ScrrolSnapStart {
   scroll-snap-align: start;
+}
+
+@media screen and (max-width: 875px) {
+  .top{
+    background-image: url("./src/concept_art_of_a_burning_landfill_planet_key_visual_ambient_lighting_highly_detailed_digital_painting_concept_art_by_makoto_shinkai.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  }
+  .info {
+    top: 70vh;
+    text-align: center;
+    margin-inline: 15%;
+    padding: 10px;
+    color: white;
+  }
+  .info h2 {
+    font-size: 3vh;
+  }
+  .info p {
+    font-size: 2.5vh;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  body,
+  html {
+    height: 100%;
+    background-image: none;
+    background-color: black;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    scroll-snap-type: y mandatory;
+  }
+  .top{
+    background-image: url("./src/concept_art_of_a_burning_landfill_planet_key_visual_ambient_lighting_highly_detailed_digital_painting_concept_art_by_makoto_shinkai.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  }
+  .info {
+    top: 70vh;
+    text-align: center;
+    margin-inline: 15%;
+    padding: 10px;
+    color: white;
+  }
+  .info h2 {
+    font-size: 2.5vh;
+  }
+  .info p {
+    font-size: 2vh;
+  }
+  .parallax {
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+  }
 }
