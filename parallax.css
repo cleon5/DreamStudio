@@ -9,6 +9,7 @@ html {
   scroll-snap-type: y mandatory;
 }
 .top {
+  height: 100%;
   background-color: #00000011;
   text-align: center;
 }

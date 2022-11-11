@@ -51,7 +51,13 @@ nav {
 
   width: 100px;
 }
-
+@media screen and (max-width: 875px) {
+  .links a {
+    padding-inline: 1vw;
+    font-size: 16px;
+    font-weight: 700;
+  }
+}
 @media screen and (max-width: 475px) {
   .Navbar input[type="checkbox"],
   .Navbar .fa-bars,
@@ -72,7 +78,6 @@ nav {
   .Navbar .fa-times {
     font-size: 48px;
     pointer-events: none;
-
   }
 
   .Navbar input[type="checkbox"] {
@@ -95,7 +100,7 @@ nav {
       0.2em 0.1em 0.2em 0.1em rgba(0, 0, 0, 0.849);
     text-align: center;
     margin-inline: 50px;
-    padding-inline: 10vw;
+    padding-inline: 15vw;
     justify-content: center;
     flex-direction: column;
 
@@ -109,7 +114,7 @@ nav {
     justify-self: start;
     align-self: flex-start;
     padding-left: 1vw;
-    width: 70px;
+    width: 12vh;
   }
   .Navbar input:checked ~ nav {
     display: block;
