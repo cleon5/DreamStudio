@@ -1,0 +1,81 @@
+.bodyLogin{
+    background-image: url(./src/concept_art_of_a_burning_landfill_planet_key_visual_ambient_lighting_highly_detailed_digital_painting_concept_art_by_makoto_shinkai.png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+}
+.loginCard {
+    width: 780px;
+    display: flex;
+    align-items:stretch;
+    margin: 150px auto;
+    background-color: transparent;
+}
+.rightCard{
+    background-color: rgba(0, 255, 255, 0);
+    border-radius: 20px;
+    width: 59%;
+    height: 300px;
+    margin: 5px;
+    text-align: end;
+    padding-top: 3vh;
+}
+.leftCard{
+    background-color: rgba(250, 128, 114, 0);
+    border-radius: 20px;
+    width: 40%;
+    height: 300px;
+    margin: 5px;
+    text-align: center;
+    padding-top: 3vh;
+}
+input{
+    border-radius: 5px;
+    padding: 5px;
+    width: 85%;
+
+}
+label{
+    font-weight: 500;
+    margin: 1vh;
+    font-size: large;
+
+}
+.line{
+    width: 5px;
+    height: 310px;
+    background-color: rgba(0, 0, 0, 0.479);
+}
+
+
+
+
+@media screen and (max-width: 800px) {
+    .loginCard {
+        width: 70%;
+        flex: none;
+        flex-direction:column;
+        margin: 150px auto;
+        background-color: transparent;
+    }
+    .rightCard{
+        width: auto;
+        height: 300px;
+        margin: 5px;
+    }
+    .leftCard{
+        width: auto;
+        height: 300px;
+        margin: 5px;
+    }
+    .line{
+        
+        display: none ;
+        background-color: black;
+    }
+}
