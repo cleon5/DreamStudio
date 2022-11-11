@@ -32,7 +32,7 @@ nav {
   font-weight: 900;
 }
 
-.links p {
+.links a {
   transition: all 0.7s ease-in-out;
   padding-inline: 2vw;
 }
@@ -122,7 +122,7 @@ nav {
     left: 0;
     width: 100%;
   }
-  .links p {
+  .links a {
     transition: all 0.7s ease-in-out;
 
     padding-inline: 2vw;
