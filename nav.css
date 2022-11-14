@@ -36,6 +36,8 @@ background: linear-gradient(180deg, rgba(77, 187, 238, 0.685) 0%, rgb(129, 20, 2
 }
 
 .links a {
+  text-decoration: dotted;
+  
   color: black;
   transition: all 0.7s ease-in-out;
   padding-inline: 2vw;
