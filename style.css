@@ -1,3 +1,32 @@
-.flex{
-    display: flex;
+.flex {
+  display: flex;
+  align-items: center;
+}
+.imgFlex {
+  width: 65vw;
+  height: 35vw;
+}
+.bg-black {
+  display: table;
+  height: 35vw;
+  width: fit-content;
+  color: white;
+  background-color: black;
+  text-align: center;
+
+}
+.bg-black h2 {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 30px;
+  padding-inline: 80px;
+}
+.bg-white {
+    
+}
+.bg-white h2 {
+    text-align: center;
+    font-size: 30px;
+    padding-inline: 80px;
+
 }

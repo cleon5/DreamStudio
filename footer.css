@@ -6,8 +6,8 @@ footer {
   width: 100%;
   background-color: rgb(109, 224, 224);
   border-radius: 10vw 10vw 0 0;
-  margin: -10px;
-  width: 100vw;
+ 
+  width: 100%;
 }
 .loginFooter {
   text-decoration: dotted;
