@@ -5,6 +5,7 @@
   display: none;
 }
 
+
 .Navbar input[type="checkbox"] {
   opacity: 0;
   display: none;
@@ -19,7 +20,7 @@ background: linear-gradient(180deg, rgba(77, 187, 238, 0.685) 0%, rgb(129, 20, 2
 }
 
 .Navbar {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0);
   height: 70px;
   display: flex;
   width: 100%;
@@ -78,12 +79,15 @@ background: linear-gradient(180deg, rgba(77, 187, 238, 0.685) 0%, rgb(129, 20, 2
     position: absolute;
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding: 1px;
     right: 30px;
     top: 0;
     width: 48px;
     height: 48px;
     display: block;
+    color: white;
+    border-radius: 5px;
+    background-color: gray;
   }
 
   .Navbar .fa-bars,

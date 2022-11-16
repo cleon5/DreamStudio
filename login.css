@@ -9,6 +9,7 @@
     display: flex;
     position: absolute;
     flex-direction: column;
+    
 }
 .loginCard {
     width: 70vw;
@@ -57,6 +58,9 @@ label{
 
 
 @media screen and (max-width: 470px) {
+    .bodyLogin{
+        color: white;
+    }
     .loginCard {
         width: 70%;
         flex: none;

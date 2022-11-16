@@ -14,6 +14,7 @@ html {
   text-align: center;
 }
 .top h2 {
+  
   font-size: 4vw;
   color: rgba(250, 235, 215, 0.747);
 }
@@ -63,6 +64,7 @@ html {
 .section {
   height: 100%;
 }
+
 .parallax {
   /* Full height */
   height: 100%;
@@ -112,6 +114,9 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     scroll-snap-type: y mandatory;
+  }
+  .titulo{
+    padding-top: 35%;
   }
   .top{
     background-image: url("./src/concept_art_of_a_burning_landfill_planet_key_visual_ambient_lighting_highly_detailed_digital_painting_concept_art_by_makoto_shinkai.png");

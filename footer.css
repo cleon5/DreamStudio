@@ -19,7 +19,7 @@ footer {
   padding: 5px;
   padding-inline: 15px;
   margin-left: 5vw;
-  font-size: 22px;
+  font-size: 2vw;
 
   transition: all 0.4s ease-in-out;
 }
@@ -29,6 +29,7 @@ footer {
 .copy p {
   font-weight: bold;
   margin-top: 50px;
+  font-size: 1.5vw;
 }
 
 .linksFooter {
@@ -36,21 +37,21 @@ footer {
   text-align: center;
 }
 .linksFooter p {
-  font-size: 22px;
+  font-size: 2vw;
   color: black;
   text-decoration: solid;
   font-weight: bolder;
   margin-bottom: 10px;
 }
 .linksFooter a {
-  font-size: 20px;
+  font-size: 2vw;
   color: black;
   text-decoration: dotted;
   transition: all 0.4s ease-in-out;
   margin: 3px;
 }
 .linksFooter a:hover {
-  font-size: 20px;
+  font-size: 2vw;
   color: rgb(68, 83, 1);
   text-decoration: underline;
   transition: all 0.3s ease-in-out;
