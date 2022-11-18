@@ -4,9 +4,9 @@ footer {
   align-items: center;
   height: fit-content;
   width: 100%;
-  background-color: rgb(153, 167, 167);
-  border-radius: 10vw 10vw 0 0;
- 
+  background: linear-gradient(180deg, rgb(160, 115, 243), rgb(98, 12, 138));;
+  /*border-radius: 10vw 10vw 0 0;
+ */
   width: 100%;
 }
 .loginFooter {
@@ -24,11 +24,11 @@ footer {
   transition: all 0.4s ease-in-out;
 }
 .copy {
-  margin-top: 50px;
+  margin-top: 5vw;
 }
 .copy p {
   font-weight: bold;
-  margin-top: 50px;
+  margin-top: 5vw;
   font-size: 1.5vw;
 }
 
