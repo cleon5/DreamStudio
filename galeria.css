@@ -13,7 +13,8 @@
   margin-inline: 10vw;
   color: rgba(255, 255, 255, 0);
   font-size: 7vw;
-  text-shadow: 2px 2px 2px rgb(21, 230, 212), 0 0 2em rgb(0, 0, 0), 0 0 0.2em blue;
+  text-shadow: 2px 2px 2px rgb(21, 230, 212), 0 0 2em rgb(0, 0, 0),
+    0 0 0.2em blue;
 }
 .imagen {
   border-radius: 2vw;
@@ -45,14 +46,39 @@
 .triple img {
   width: 30vw;
 }
-.fin{
-    justify-content: center;
-    margin: 0 auto;
-    width: 10vw;
-    margin-bottom: 4vw;
+.fin {
+  justify-content: center;
+  margin: 0 auto;
+  width: 10vw;
+  margin-bottom: 4vw;
 }
-.fin h2{
+.fin h2 {
+  text-align: center;
+  font-size: 2vw;
+  color: rgb(56, 56, 56);
+}
+@media screen and (max-width: 475px) {
+    .titulo {
+        position: absolute;
+        top: 50vw;
+        text-align: center;
+        margin-inline: 10vw;
+        color: rgba(255, 255, 255, 0);
+        font-size: 8vw;
+        
+      }
+  .triple, .doble {
+    
     text-align: center;
-    font-size: 2vw;
-    color: rgb(56, 56, 56);
+    width: 100%;
+    display: block;
+  }
+  .triple img, .doble img {
+    width: 90vw;
+    
+  margin: 0 auto;
+  }
+  .fin h2 {
+    font-size: 5vw;
+  }
 }

@@ -4,10 +4,12 @@ footer {
   align-items: center;
   height: fit-content;
   width: 100%;
-  background: linear-gradient(180deg, rgb(160, 115, 243), rgb(98, 12, 138));;
+  background: linear-gradient(180deg, rgb(160, 115, 243), rgb(98, 12, 138));
   /*border-radius: 10vw 10vw 0 0;
  */
-  width: 100%;
+  margin-inline: -5vw;
+  margin-bottom: -5vw;
+  width: 103vw;
 }
 .loginFooter {
   text-decoration: dotted;
