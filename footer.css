@@ -33,7 +33,7 @@ footer {
 }
 
 .linksFooter {
-  width: 100px;
+  width: 10vw;
   text-align: center;
 }
 .linksFooter p {
@@ -57,6 +57,6 @@ footer {
   transition: all 0.3s ease-in-out;
 }
 .logoFooter {
-  margin: -10px;
-  width: 30vh;
+  margin: -1vw;
+  width: 15vw;
 }
