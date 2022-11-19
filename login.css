@@ -93,7 +93,6 @@ label {
 
 @media screen and (max-width: 470px) {
   .bodyLogin {
-    color: white;
   }
   .loginCard {
     width: 85%;
