@@ -57,6 +57,7 @@
   font-size: 2vw;
   color: rgb(56, 56, 56);
 }
+
 @media screen and (max-width: 475px) {
     .titulo {
         position: absolute;
