@@ -1,122 +1,135 @@
-
-.bodyLogin{
-    background-image: url(./src/concept_art_of_a_burning_landfill_planet_key_visual_ambient_lighting_highly_detailed_digital_painting_concept_art_by_makoto_shinkai.png);
-    background-repeat: no-repeat;
-    background-color: transparent;
-    background-size: cover;
-    width: 100%;
-    height: auto;
-    display: flex;
-    position: absolute;
-    flex-direction: column;
-    
+.bodyLogin {
+  background-image: url(./src/concept_art_of_a_burning_landfill_planet_key_visual_ambient_lighting_highly_detailed_digital_painting_concept_art_by_makoto_shinkai.png);
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  color: rgb(0, 0, 0);
 }
 .loginCard {
-    width: 70vw;
-    display: flex;
-    align-items:stretch;
-    margin: 140px auto;
-    background-color: transparent;
+  width: 70vw;
+  display: flex;
+  align-items: stretch;
+  margin: 140px auto;
+  background-color: transparent;
 }
-.rightCard{
-    background-color: rgba(0, 255, 255, 0.205);
-    border-radius: 20px;
-    width: 59%;
-    height: 400px;
-    margin: 5px;
-    text-align: justify;
-    padding-top: 3vh;
+.rightCard {
+    padding: 2vw;
+  background-color: rgba(40, 172, 172, 0.507);
+  border-radius: 20px;
+  width: 59%;
+  height: 400px;
+  margin: 5px;
+  text-align: justify;
+  padding-top: 3vh;
 
-    align-items: center;
+  align-items: center;
 }
-.leftCard{
-    background-color: rgba(250, 128, 114, 0.24);
-    border-radius: 20px;
-    width: 40%;
-    height: 400px;
-    margin: 5px;
-    text-align: center;
-    padding-top: 3vw;
-    align-items: center;
+.leftCard {
+    padding: 2vw;
+  background-color: rgba(194, 80, 68, 0.582);
+  border-radius: 20px;
+  width: 40%;
+  height: 400px;
+  margin: 5px;
+  text-align: center;
+  padding-top: 5vw;
+  align-items: center;
 }
-input{
-    border-radius: 5px;
-    padding: 5px;
-    width: 85%;
-
+input {
+  border-radius: 5px;
+  padding: 5px;
+  width: 85%;
 }
-label{
-    font-weight: 500;
-    margin: 1vh;
-    font-size: large;
-
+label {
+  font-weight: 500;
+  margin: 1vh;
+  font-size: large;
 }
-.rightCard h3{
-    font-size: 20px;
+.rightCard h3 {
+  font-size: 20px;
 }
-.line{
-    width: 5px;
-    height: 310px;
-    background-color: rgba(0, 0, 0, 0.479);
+.line {
+  width: 5px;
+  height: 410px;
+  background-color: rgba(0, 0, 0, 0.479);
 }
-.rightCard input{
-    border-radius: 5px;
-    padding: 5px;
-    margin-right: 1vw;
-    width: 65%;
+.rightCard input {
+  border-radius: 5px;
+  padding: 5px;
+  width: 60%;
 }
-.rightCard button{
-    justify-content: center;
-    margin: 2vw 15vw;
+.rightCard label {
+    width: 34%;
+  }
+.rightCard button {
+  justify-content: center;
+  margin: 2vw 15vw;
 }
 
 @media screen and (max-width: 800px) {
-    .loginCard{
-        width: 95vw;
+  .loginCard {
+    width: 95vw;
+  }
+  .leftCard{
+    padding-top: 10vw;
+  }
+  .rightCard input {
+    border-radius: 5px;
+    padding: 5px;
+    width: 55%;
+  }
+  .rightCard label {
+      width: 30%;
+      font-size: 18px;
     }
+
+
 }
 
 @media screen and (max-width: 470px) {
-    .bodyLogin{
-        color: white;
-    }
-    .loginCard {
-        width: 85%;
-        flex: none;
-        flex-direction:column;
-        margin: 70px auto;
-        background-color: transparent;
-        
-    }
-    .rightCard{
-        padding: 4vw;
-        width: auto;
-        height: 400px;
-        margin: 5px;
-    }
-    .leftCard{
-        padding: 4vw;
-        width: auto;
-        height: 300px;
-        margin: 5px;
-    }
-    .rightCard input{
-        border-radius: 5px;
-        padding: 5px;
-        margin-right: 1vw;
-        width: 55%;
-        font-size: 14px;
-    }
-    .rightCard label{
-        font-size: 20px;
-    }
-    .rightCard button{
-        justify-content: center;
-        margin: 3vw 25vw;
-    }
-    .line{
-        
-        display: none ;
-        background-color: black;
-    }
+  .bodyLogin {
+    color: white;
+  }
+  .loginCard {
+    width: 85%;
+    flex: none;
+    flex-direction: column;
+    margin: 70px auto;
+    background-color: transparent;
+  }
+  .rightCard {
+    padding: 4vw;
+    width: auto;
+    height: 400px;
+    margin: 5px;
+  }
+  .leftCard {
+    padding: 4vw;
+    width: auto;
+    height: 300px;
+    margin: 5px;
+  }
+  .rightCard input {
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 1vw;
+    width: 55%;
+    font-size: 14px;
+  }
+  .rightCard label {
+    font-size: 20px;
+  }
+  .rightCard button {
+    justify-content: center;
+    margin: 3vw 25vw;
+  }
+  .line {
+    display: none;
+    background-color: black;
+  }
 }
