@@ -5,7 +5,6 @@
   display: none;
 }
 
-
 .Navbar input[type="checkbox"] {
   opacity: 0;
   display: none;
@@ -16,7 +15,11 @@ nav {
   padding: 10px;
   height: fit-content;
   border-radius: 10px;
-background: linear-gradient(180deg, rgba(77, 187, 238, 0.685) 0%, rgb(129, 20, 224) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(77, 187, 238, 0.685) 0%,
+    rgb(129, 20, 224) 100%
+  );
 }
 
 .Navbar {
@@ -38,7 +41,7 @@ background: linear-gradient(180deg, rgba(77, 187, 238, 0.685) 0%, rgb(129, 20, 2
 
 .links a {
   text-decoration: dotted;
-  
+
   color: black;
   transition: all 0.7s ease-in-out;
   padding-inline: 2vw;
@@ -58,7 +61,7 @@ background: linear-gradient(180deg, rgba(77, 187, 238, 0.685) 0%, rgb(129, 20, 2
 
   width: 100px;
 }
-.login{
+.login {
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
   padding: 5px;

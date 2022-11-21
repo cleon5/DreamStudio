@@ -25,8 +25,10 @@
   padding-bottom: 1vw;
 }
 .simple img {
-  width: 90vw;
+  width: 80vw;
+  height: 60vw;
   margin: 0 auto;
+  background-size: contain;
 }
 .doble {
   display: flex;
@@ -59,25 +61,30 @@
 }
 
 @media screen and (max-width: 475px) {
-    .titulo {
-        position: absolute;
-        top: 50vw;
-        text-align: center;
-        margin-inline: 10vw;
-        color: rgba(255, 255, 255, 0);
-        font-size: 8vw;
-        
-      }
-  .triple, .doble {
-    
+  .simple img {
+    width: 90vw;
+    height: fit-content;
+    margin: 0 auto;
+  }
+  .titulo {
+    position: absolute;
+    top: 30vh;
+    text-align: center;
+    margin-inline: 10vw;
+    color: rgba(255, 255, 255, 0);
+    font-size: 8vw;
+  }
+  .triple,
+  .doble {
     text-align: center;
     width: 100%;
     display: block;
   }
-  .triple img, .doble img {
+  .triple img,
+  .doble img {
     width: 90vw;
-    
-  margin: 0 auto;
+
+    margin: 0 auto;
   }
   .fin h2 {
     font-size: 5vw;

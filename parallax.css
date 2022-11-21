@@ -14,7 +14,6 @@ html {
   text-align: center;
 }
 .top h2 {
-  
   font-size: 4vw;
   color: rgba(250, 235, 215, 0.747);
 }
@@ -80,13 +79,13 @@ html {
 }
 
 @media screen and (max-width: 875px) {
-  .top{
+  .top {
     background-image: url("./src/concept_art_of_a_burning_landfill_planet_key_visual_ambient_lighting_highly_detailed_digital_painting_concept_art_by_makoto_shinkai.png");
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
   }
   .info {
     top: 70vh;
@@ -115,16 +114,16 @@ html {
     background-size: cover;
     scroll-snap-type: y mandatory;
   }
-  .titulo{
+  .titulo {
     padding-top: 35%;
   }
-  .top{
+  .top {
     background-image: url("./src/concept_art_of_a_burning_landfill_planet_key_visual_ambient_lighting_highly_detailed_digital_painting_concept_art_by_makoto_shinkai.png");
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
   }
   .info {
     top: 70vh;
