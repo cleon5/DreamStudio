@@ -76,19 +76,18 @@
 }
 @media screen and (max-width: 475px) {
   .add{
-    display:block;
+    display: flex;
     justify-content: center;
     margin: 5vw;
     align-items: center;
   }
   .addElement{
-    margin-bottom: 10vw;
-    margin-inline: 1vw;
+    margin-inline: 3vw;
     text-align: center;
-    font-size: 5vw;
+    font-size: 3vw;
   }
   .addElement img{
-    width: 30vw;
+    width: 20vw;
   }
 
   .flex {

@@ -63,3 +63,53 @@ footer {
   margin: -1vw;
   width: 15vw;
 }
+
+@media screen and (max-width: 475px) {
+  .linksFooter {
+    width: 10vw;
+    text-align: center;
+  }
+  .linksFooter p {
+    font-size: 3vw;
+    color: black;
+    text-decoration: solid;
+    font-weight: bolder;
+    margin-bottom: 10px;
+  }
+  .linksFooter a {
+    font-size: 3vw;
+    color: black;
+    text-decoration: dotted;
+    transition: all 0.4s ease-in-out;
+    margin: 3px;
+  }
+  .linksFooter a:hover {
+    font-size: 3vw;
+    color: rgb(68, 83, 1);
+    text-decoration: underline;
+    transition: all 0.3s ease-in-out;
+  }
+  .logoFooter {
+    margin: -1vw;
+    width: 15vw;
+  }
+  .copy p {
+    font-weight: bold;
+    margin-top: 5vw;
+    font-size: 3.2vw;
+  }
+  .loginFooter {
+    text-decoration: dotted;
+  
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    padding-inline: 15px;
+    margin-left: 5vw;
+    font-size: 3vw;
+  
+    transition: all 0.4s ease-in-out;
+  }
+}
