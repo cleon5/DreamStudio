@@ -17,9 +17,9 @@
 .cubierta .cover img {
   position: absolute;
   width: 40vw;
-  height: 74vh;
+  height: 68vh;
   z-index: 10;
-  padding-top: 15vh;
+  padding-top: 17vh;
   border-radius: 30px;
 }
 .container .cover {
@@ -205,6 +205,16 @@ label {
     font-size: 4vh;
     margin-top: 1vw;
     color: var(--axul);
+  }
+}
+@media screen and (max-width: 875px) {
+  .cubierta .cover img {
+    position: absolute;
+    width: 40vw;
+    height: 65vh;
+    z-index: 10;
+    padding-top: 18vh;
+    border-radius: 30px;
   }
 }
 @media screen and (max-width: 475px) {
