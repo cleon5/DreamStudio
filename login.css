@@ -4,6 +4,7 @@
 .cubierta {
   position: relative;
   width: 100%;
+  height: 100%;
   background: rgba(49, 32, 32, 0);
   padding: 40px 30px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
@@ -16,9 +17,9 @@
 .cubierta .cover img {
   position: absolute;
   width: 40vw;
-  height: 460px;
+  height: 74vh;
   z-index: 10;
-  padding-top: 18vh;
+  padding-top: 15vh;
   border-radius: 30px;
 }
 .container .cover {
@@ -134,17 +135,19 @@
   margin-bottom: 0.5vw;
   outline: none;
   border: none;
-  font-size: 1vw;
+  font-size: 2.2vh;
+
 }
 input {
   border-radius: 5px;
   padding: 5px;
   width: 75%;
+  font-size: 2.2vh;
 }
 label { 
   font-weight: 500;
   margin: 1vh;
-  font-size: large;
+  font-size: 2.2vh;
 }
 .Ingresa {
   color: var(--axul);
@@ -160,6 +163,7 @@ label {
   border-radius: 5px;
   padding: 5px;
   width: 25vw;
+  font-size: 2.2vh;
 }
 .rightCard label {
   width: 37%;
