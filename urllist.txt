@@ -1,0 +1,5 @@
+https://dream-studio.netlify.app/
+https://dream-studio.netlify.app/index.html
+https://dream-studio.netlify.app/galeria.html
+https://dream-studio.netlify.app/parallax.html
+https://dream-studio.netlify.app/login.html
