@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
+<rss version="2.0">
+  <channel>
+    <title>-</title>
+    <link>https://dream-studio.netlify.app/index.html</link>
+    <description />
+    <item>
+      <guid>http://dream-studio.netlify.app</guid>
+      <link>http://dream-studio.netlify.app</link>
+      <description />
+    </item>
+    <item>
+      <guid>https://dream-studio.netlify.app/</guid>
+      <link>https://dream-studio.netlify.app/</link>
+      <title>Document</title>
+      <description />
+    </item>
+    <item>
+      <guid>https://dream-studio.netlify.app/login.html</guid>
+      <link>https://dream-studio.netlify.app/login.html</link>
+      <title>Document</title>
+      <description />
+    </item>
+    <item>
+      <guid>https://dream-studio.netlify.app/parallax.html</guid>
+      <link>https://dream-studio.netlify.app/parallax.html</link>
+      <title>Parallax</title>
+      <description />
+    </item>
+    <item>
+      <guid>https://dream-studio.netlify.app/galeria.html</guid>
+      <link>https://dream-studio.netlify.app/galeria.html</link>
+      <title>Galería</title>
+      <description />
+    </item>
+    <item>
+      <guid>https://dream-studio.netlify.app/index.html</guid>
+      <link>https://dream-studio.netlify.app/index.html</link>
+      <title>Document</title>
+      <description />
+    </item>
+    <item>
+      <guid>https://dream-studio.netlify.app/src/embed.svg</guid>
+      <link>https://dream-studio.netlify.app/src/embed.svg</link>
+      <description />
+    </item>
+    <item>
+      <guid>https://dream-studio.netlify.app/src/no-limit.svg</guid>
+      <link>https://dream-studio.netlify.app/src/no-limit.svg</link>
+      <description />
+    </item>
+    <item>
+      <guid>https://dream-studio.netlify.app/src/responsive.svg</guid>
+      <link>https://dream-studio.netlify.app/src/responsive.svg</link>
+      <description />
+    </item>
+    <item>
+      <guid>https://dream-studio.netlify.app/src/stable-diffusion-demo-2.jpg</guid>
+      <link>https://dream-studio.netlify.app/src/stable-diffusion-demo-2.jpg</link>
+      <description />
+    </item>
+    <item>
+      <guid>https://dream-studio.netlify.app/src/2-01.png</guid>
+      <link>https://dream-studio.netlify.app/src/2-01.png</link>
+      <description />
+    </item>
+    <item>
+      <guid>https://dream-studio.netlify.app/src/logo.png</guid>
+      <link>https://dream-studio.netlify.app/src/logo.png</link>
+      <description />
+    </item>
+    <item>
+      <guid>https://dream-studio.netlify.app/src/Fb6gJjoXEAEMUg1.jpg</guid>
+      <link>https://dream-studio.netlify.app/src/Fb6gJjoXEAEMUg1.jpg</link>
+      <description />
+    </item>
+    <item>
+      <guid>https://dream-studio.netlify.app/src/FfprG_PVsAA4a84.jpg</guid>
+      <link>https://dream-studio.netlify.app/src/FfprG_PVsAA4a84.jpg</link>
+      <description />
+    </item>
+  </channel>
+</rss>
